@@ -1,0 +1,22 @@
+name: gene_venn_app
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base>=4.3
+  - r-shiny
+  - r-shinydashboard
+  - r-shinywidgets
+  - r-dt
+  - r-venndiagram
+  - r-upsetr
+  - r-readxl
+  - r-writexl
+  - r-dplyr
+  - r-purrr
+  - r-stringr
+  - r-grdevices
+  - r-futile.logger
+  - r-gridextra
+  - r-colourpicker
